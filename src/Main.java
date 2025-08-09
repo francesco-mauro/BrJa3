@@ -13,9 +13,16 @@ public class Main {
         System.out.println(z);
 
         x += y;
+        x++;
+        x--;
 
         System.out.print(x);
 
+        // Order od operation ParentesisExponentsMoltiplicationDivisionAdditionSubtraction
+
+        double result = 3 + 4 * (7 - 5) / 2.0;
+
+        System.out.println(result);
 
     }
 }
